@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+.Contanir{
+    width: 50%;
+    height: 100vh;    
+    display: flex;
+    /* margin-top: 200px; */
+    margin-left: 300px;
+   
+
+}
+
+.Main{
+    
+    background-color: black;
+    border-radius: 40px;
+    border: 3px solid silver;
+    /* background: transparent; */
+    margin:  auto;
+    width: 42%;
+    padding: 16px;
+    height: auto;
+    box-shadow: -3px 3px 20px 10px rgb(88, 88, 88);
+    
+}
+
+img{
+    margin-bottom: 110px;
+    width: 98%;
+    cursor: pointer;
+}
+p{
+    color: white;
+    margin-left: 70px;
+    font-size: 45px;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    
+    
+}
+
+ul li{
+    background-color:wheat ;
+    width: 2.8rem;
+    height: 2.8em;
+    padding-top: 0.6rem;
+    margin: 4px;
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+ul li a{
+   color: rgb(250, 250, 250);
+   font-size: 20px;
+}
+
+.merge{
+    background-color: rgb(61, 61, 62);
+    width: 100px;
+    height: 48px;
+    padding-right: 4rem;
+}
+
+.line{
+    width: 30%;
+    padding-top: 30px;
+    border-radius: 2px;
+    border-bottom: 3px solid white;
+    margin: auto;
+}
+.Yellow{
+    background-color: rgb(235, 174, 21);
+}
+
+.Num{
+    background-color: rgb(61, 61, 62);   
+
+}
+.Num1{
+    background-color: rgb(156, 156, 158);
+    color: black;   
+}
+.Num1 img{
+    width: 77%;
+    border-radius: 20px;
+}
+
+ul li:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
